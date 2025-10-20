@@ -27,7 +27,7 @@ public class BaseTest {
     
 
     
-@Test
+
     public void login(String username, String password) throws InterruptedException {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.findElement(Login.USERNAME).sendKeys(username);
