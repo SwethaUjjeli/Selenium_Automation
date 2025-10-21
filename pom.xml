@@ -34,5 +34,16 @@
     <version>7.11.0</version>
     <scope>test</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v114 -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools-v114</artifactId>
+    <version>4.12.1</version>
+</dependency>
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version> <!-- You can update this to the latest -->
+</dependency>
   </dependencies>
 </project>

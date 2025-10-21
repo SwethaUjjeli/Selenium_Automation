@@ -5,9 +5,11 @@ import org.testng.annotations.Test;
 
 import Loginpage.infopage;
 import base.BaseTest;
+import Loginpage.infopage;
 import utils.Keyboardactions;
 
 public class Myinfo extends BaseTest {
+
 
 @Test	
 public void updateInfo() throws InterruptedException{
@@ -34,6 +36,28 @@ public void updateInfo() throws InterruptedException{
         WebElement lastName = driver.findElement(infopage.Lname);
         Keyboardactions.clearText(lastName);
         lastName.sendKeys("Ujjeli");
+        Thread.sleep(5000);
+        
+        //Enter EmployeeID
+        WebElement empID = driver.findElement(infopage.EmpID);
+        Keyboardactions.clearText(empID);
+        empID.sendKeys("090912");
+        Thread.sleep(5000);
+        
+      //Enter otherID
+        WebElement otherID = driver.findElement(infopage.OtherID);
+        Keyboardactions.clearText(otherID);
+        Thread.sleep(5000);
+     
+       //Enter DOB
+        WebElement dateOfBirth = driver.findElement(infopage.DOB);
+        Keyboardactions.clearText(dateOfBirth);
+        dateOfBirth.sendKeys("1999-08-04");
+        Thread.sleep(5000);
+        
+        //Select Gender
+        WebElement gender = driver.findElement(infopage.Gender);
+        gender.click();
         Thread.sleep(5000);
         
        
