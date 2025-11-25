@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-20T13:49:41 IST" name="Default suite" finished-at="2025-10-20T13:50:25 IST" duration-ms="44292">
+  <suite started-at="2025-11-24T16:37:59 IST" name="Default suite" finished-at="2025-11-24T16:38:45 IST" duration-ms="46380">
     <groups>
     </groups>
-    <test started-at="2025-10-20T13:49:41 IST" name="Default test" finished-at="2025-10-20T13:50:25 IST" duration-ms="44292">
-      <class name="Tests.Myinfo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.Myinfo@6e171cd7]" started-at="2025-10-20T13:49:41 IST" name="setUp" finished-at="2025-10-20T13:49:44 IST" duration-ms="2797" status="PASS">
+    <test started-at="2025-11-24T16:37:59 IST" name="Default test" finished-at="2025-11-24T16:38:45 IST" duration-ms="46380">
+      <class name="Tests.CreateAdmin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CreateAdmin@7334aada]" started-at="2025-11-24T16:37:59 IST" name="setUp" finished-at="2025-11-24T16:38:01 IST" duration-ms="2139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="updateInfo()[pri:0, instance:Tests.Myinfo@6e171cd7]" started-at="2025-10-20T13:49:44 IST" name="updateInfo" finished-at="2025-10-20T13:50:25 IST" duration-ms="41444" status="PASS">
+        <test-method signature="createAdminRole()[pri:0, instance:Tests.CreateAdmin@7334aada]" started-at="2025-11-24T16:38:01 IST" name="createAdminRole" finished-at="2025-11-24T16:38:45 IST" duration-ms="44206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateInfo -->
-      </class> <!-- Tests.Myinfo -->
+        </test-method> <!-- createAdminRole -->
+      </class> <!-- Tests.CreateAdmin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
